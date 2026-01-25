@@ -114,26 +114,6 @@ def validarVacios():
             hayError = True
 
     return not hayError
-
-
-def validarInasistencia(faltas) :
-    try:
-        numeroFaltas = float(faltas)
-        if numeroFaltas == 0:
-            return 10
-        if numeroFaltas > 0 and numeroFaltas < 4:
-            return 9
-        if numeroFaltas > 0 and numeroFaltas < 4:
-            return 9
-        if numeroFaltas == 4 and numeroFaltas == 5:
-            return 8
-        if numeroFaltas > 5:
-            return 7
-        lblErrorInasistencias.config(text="Valor debe ser mayor a 0")
-        return None
-    except ValueError:
-        lblErrorInasistencias.config(text="Solo valores numérico")
-        return None
     
      
 def nuevo ():
