@@ -27,4 +27,6 @@ def calcularPromedioCurso(listaEstudiantes):
         nota = float(notaStr)
         totalSuma += nota
     return round((totalSuma/len(listaEstudiantes)),4)
+
+
   
