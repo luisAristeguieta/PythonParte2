@@ -126,6 +126,7 @@ def nuevo ():
     txtInasistencias.delete(0,END)
     lblTotal.config(text="0.00")
 
+
 #GRAFICA
 ventana=Tk()
 ventana.title("NOTAS")
