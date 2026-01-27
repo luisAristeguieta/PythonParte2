@@ -196,6 +196,7 @@ lblErrorNota3.grid(row=7,column=3)
 lblInsasistencias.grid(row=8,column=1)
 txtInasistencias.grid(row=8,column=2)
 lblErrorInasistencias.grid(row=8,column=3)
+
 lblTituloPromedio.grid(row=9,column=1)
 lblTotal.grid(row=9,column=2)
 frBotones.grid(row=10,column=0,columnspan=4,pady=10)
